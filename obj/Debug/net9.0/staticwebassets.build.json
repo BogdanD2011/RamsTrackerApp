@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PYRd5TdXhZE06heVB6hxl4IUaFSYzinb6RvWw4DhiQc=",
+  "Source": "RamsTrackerAPI",
+  "BasePath": "_content/RamsTrackerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

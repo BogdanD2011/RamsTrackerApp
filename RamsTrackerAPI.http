@@ -1,0 +1,6 @@
+@RamsTrackerAPI_HostAddress = http://localhost:5090
+
+GET {{RamsTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -12,6 +12,10 @@ namespace RamsTrackerAPI.Mappings
             CreateMap<MS, MSDTO>().ReverseMap();
             CreateMap<AddMSRequestDto, MS>().ReverseMap();
             CreateMap<UpdateMSRequestDto, MS>().ReverseMap();
+            CreateMap<AddRaDTO, RA>().ReverseMap();
+            CreateMap<RA, RADTO>().ReverseMap();
+            CreateMap<Subcontractor, AddSubcontractorDTO>().ReverseMap();
+            CreateMap<Subcontractor, SubcontractorDTO>().ReverseMap();
         }
     }
 }

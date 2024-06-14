@@ -14,5 +14,12 @@ namespace RamsTrackerAPI.Data
 
         public DbSet<Subcontractor> Subcontractor { get; set; }
         public DbSet<MS> MS { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Seed data for Subcontractor
+        }
     }
 }

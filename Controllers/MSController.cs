@@ -78,6 +78,7 @@ namespace RamsTrackerAPI.Controllers
             return Ok(mapper.Map<MSDTO>(MSDomain));
         }
 
+        // POST: https//localhost:portnumber/api/MS
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddMSRequestDto addMSRequestDto)
         {

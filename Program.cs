@@ -16,6 +16,8 @@ builder.Services.AddDbContext<RamsDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("RamsTrackerConnectionString")));
 
 builder.Services.AddScoped<IMSRepository, SQLMSRepository>();
+builder.Services.AddScoped<IRaRepository, SQLRaRepository>();
+builder.Services.AddScoped<ISubcontractorRepository, SQLSubcontractorRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutomapperProfiles));
 

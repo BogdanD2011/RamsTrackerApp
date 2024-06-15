@@ -12,8 +12,8 @@ using RamsTrackerAPI.Data;
 namespace RamsTrackerAPI.Migrations
 {
     [DbContext(typeof(RamsDbContext))]
-    [Migration("20240608114325_Initial migration")]
-    partial class Initialmigration
+    [Migration("20240615194200_First migration")]
+    partial class Firstmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

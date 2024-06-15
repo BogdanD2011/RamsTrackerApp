@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RamsTrackerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f1dc894c714bdfb99b449f01fcab47de926c502")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0615f1912335a21f2558b9c1ef35bfb9b5b1767e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RamsTrackerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RamsTrackerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

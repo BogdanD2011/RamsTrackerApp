@@ -5,7 +5,7 @@ namespace RamsTrackerAPI.Data
 {
     public class RamsDbContext : DbContext
     {
-        public RamsDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
+        public RamsDbContext(DbContextOptions<RamsDbContext> dbContextOptions) : base(dbContextOptions)
         {
             
         }

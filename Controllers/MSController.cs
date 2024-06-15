@@ -8,11 +8,14 @@ using RamsTrackerAPI.Data;
 using RamsTrackerAPI.Models.Domain;
 using RamsTrackerAPI.Models.DTO;
 using RamsTrackerAPI.Repositories;
+using RamsTrackerAPI.CustomActionFilter;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RamsTrackerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class MSController : ControllerBase
     {
         private readonly RamsDbContext dbContext;
@@ -80,6 +83,7 @@ namespace RamsTrackerAPI.Controllers
 
         // POST: https//localhost:portnumber/api/MS
         [HttpPost]
+        [ValidateModelAtribute]
         public async Task<IActionResult> Create([FromBody] AddMSRequestDto addMSRequestDto)
         {
             // Map or Convert DTO to Domain Model
@@ -98,6 +102,7 @@ namespace RamsTrackerAPI.Controllers
         // PUT: https//localhost:portnumber/api/MS/{id}
         [HttpPut]
         [Route("{id:Guid}")]
+        [ValidateModelAtribute]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateMSRequestDto updateMSRequestDto)
         {
             // Map DTO to domain model

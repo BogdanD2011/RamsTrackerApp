@@ -15,7 +15,7 @@ namespace RamsTrackerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class MSController : ControllerBase
     {
         private readonly RamsDbContext dbContext;
@@ -30,6 +30,7 @@ namespace RamsTrackerAPI.Controllers
         }
         // Get all MS
         [HttpGet]
+        [Authorize(Roles = "Writer, Reader")]
         public async Task<IActionResult> GetAll()
         {
             // Get Data From Databas - Domain models
@@ -64,6 +65,7 @@ namespace RamsTrackerAPI.Controllers
         //Get single MS by id
         // GET: https//localhost:portnumber/api/MS/{id}
         [HttpGet]
+        [Authorize(Roles ="Reader")]
         [Route("{id:Guid}")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
@@ -83,6 +85,7 @@ namespace RamsTrackerAPI.Controllers
 
         // POST: https//localhost:portnumber/api/MS
         [HttpPost]
+        [Authorize(Roles = "Writer")]
         [ValidateModelAtribute]
         public async Task<IActionResult> Create([FromBody] AddMSRequestDto addMSRequestDto)
         {
@@ -101,6 +104,7 @@ namespace RamsTrackerAPI.Controllers
 
         // PUT: https//localhost:portnumber/api/MS/{id}
         [HttpPut]
+        [Authorize(Roles = "Writer")]
         [Route("{id:Guid}")]
         [ValidateModelAtribute]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateMSRequestDto updateMSRequestDto)
@@ -125,6 +129,7 @@ namespace RamsTrackerAPI.Controllers
         //Delete Region
         // DELETE: https://localhost:portnumber/api/MS/{id}
         [HttpDelete]
+        [Authorize(Roles = "Writer")]
         [Route("{id:Guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id) 
         {

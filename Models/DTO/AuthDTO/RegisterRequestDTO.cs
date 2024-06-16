@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RamsTrackerAPI.Models.DTO
+namespace RamsTrackerAPI.Models.DTO.AuthDTO
 {
     public class RegisterRequestDTO
     {
@@ -11,7 +11,7 @@ namespace RamsTrackerAPI.Models.DTO
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        public string[] Roles  { get; set; }
+        public string[] Roles { get; set; }
 
     }
 }

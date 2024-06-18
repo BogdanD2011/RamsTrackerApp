@@ -14,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+//file upload
+builder.Services.AddHttpContextAccessor();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -56,6 +59,7 @@ builder.Services.AddScoped<IMSRepository, SQLMSRepository>();
 builder.Services.AddScoped<IRaRepository, SQLRaRepository>();
 builder.Services.AddScoped<ISubcontractorRepository, SQLSubcontractorRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+builder.Services.AddScoped<IFilesRepository, LocalFilesRepository>();
 
 // Automaper
 builder.Services.AddAutoMapper(typeof(AutomapperProfiles));

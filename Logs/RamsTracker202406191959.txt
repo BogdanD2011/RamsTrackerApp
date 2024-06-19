@@ -1,0 +1,12 @@
+2024-06-19 19:59:05.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-06-19 19:59:05.600 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-19 19:59:05.665 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-19 19:59:06.309 +01:00 [INF] GetAll Action Method was invoked
+2024-06-19 19:59:08.289 +01:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[MS_Title], [m].[RAid], [m].[SubcontractorId], [m].[revision]
+FROM [MS] AS [m]
+2024-06-19 19:59:08.414 +01:00 [INF] Finished GetAllRegion request with data: []
+2024-06-19 19:59:08.443 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-19 19:59:08.464 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 2786.6807ms
+2024-06-19 19:59:08.467 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-19 19:59:08.482 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 200 null application/json; charset=utf-8 3128.1233ms

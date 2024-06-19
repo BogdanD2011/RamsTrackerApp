@@ -10,6 +10,7 @@ using RamsTrackerAPI.Models.DTO;
 using RamsTrackerAPI.Repositories;
 using RamsTrackerAPI.CustomActionFilter;
 using Microsoft.AspNetCore.Authorization;
+using System.Text.Json;
 
 namespace RamsTrackerAPI.Controllers
 {
@@ -21,18 +22,22 @@ namespace RamsTrackerAPI.Controllers
         private readonly RamsDbContext dbContext;
         private readonly IMSRepository _MSRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<MSController> _logger;
 
-        public MSController(RamsDbContext dbcontext, IMSRepository MSRepository, IMapper mapper)
+        public MSController(RamsDbContext dbcontext, IMSRepository MSRepository, IMapper mapper,
+            ILogger<MSController> logger)
         {
             this.dbContext = dbcontext;
             this._MSRepository = MSRepository;
             this.mapper = mapper;
+            this._logger = logger;
         }
         // Get all MS
         [HttpGet]
         [Authorize(Roles = "Writer, Reader")]
         public async Task<IActionResult> GetAll()
         {
+
             // Get Data From Databas - Domain models
             var MSs = await _MSRepository.GetAllAsync();
 

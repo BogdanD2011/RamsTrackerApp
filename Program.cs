@@ -8,10 +8,23 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using RamsTrackerAPI.Repositories.AuthRepository;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.FileProviders;
+using Serilog;
+using Microsoft.AspNetCore.Diagnostics;
+using RamsTrackerAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/RamsTracker.txt", rollingInterval: RollingInterval.Minute)
+    .MinimumLevel.Information()
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 
 builder.Services.AddControllers();
 //file upload
@@ -104,11 +117,19 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<RamsTrackerAPI.Middlewares.ExceptionHandlerMiddleware>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "UploadedFiles")),
+    RequestPath = "/UploadedFiles"
+});
 
 app.MapControllers();
 

@@ -20,7 +20,7 @@ namespace RamsTrackerAPI.Repositories
         public async Task<Files> Upload(Files files)
         {
             var localFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, "UploadedFiles",
-                $"{files.FileName}{files.FileExtension}");
+               files.uploadFile.FileName);
 
             // Upload File to Lopcal Path
             using var stream = new FileStream(localFilePath, FileMode.Create);

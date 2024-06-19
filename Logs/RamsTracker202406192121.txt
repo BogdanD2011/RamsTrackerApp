@@ -1,0 +1,41 @@
+2024-06-19 21:21:13.142 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Login - application/json 68
+2024-06-19 21:21:13.203 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-19 21:21:13.266 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-06-19 21:21:17.126 +01:00 [INF] Executed DbCommand (141ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-06-19 21:21:17.446 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-06-19 21:21:17.539 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.LoginResponseDTO'.
+2024-06-19 21:21:17.551 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 4275.0266ms
+2024-06-19 21:21:17.554 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-19 21:21:17.570 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Login - 200 null application/json; charset=utf-8 4428.1757ms
+2024-06-19 21:21:36.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-06-19 21:21:36.861 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-19 21:21:36.874 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-19 21:21:37.613 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[MS_Title], [m].[RAid], [m].[SubcontractorId], [m].[revision]
+FROM [MS] AS [m]
+2024-06-19 21:21:37.824 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 944.2034ms
+2024-06-19 21:21:37.827 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-19 21:21:38.360 +01:00 [ERR] 5a36229e-3e5c-4641-911c-216e3d5fce54 : This is a new exception
+System.Exception: This is a new exception
+   at RamsTrackerAPI.Controllers.MSController.GetAll() in C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI\Controllers\MSController.cs:line 65
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RamsTrackerAPI.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-19 21:21:38.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 500 null application/json; charset=utf-8 1720.7691ms

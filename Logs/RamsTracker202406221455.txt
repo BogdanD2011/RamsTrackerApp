@@ -1,0 +1,60 @@
+2024-06-22 14:55:06.890 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 14:55:06.910 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:06.913 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 22.6316ms
+2024-06-22 14:55:06.931 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404
+2024-06-22 14:55:19.286 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7061/api/auth/login - null null
+2024-06-22 14:55:19.286 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 14:55:19.290 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:19.294 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:19.296 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7061/api/auth/login - 204 null null 9.553ms
+2024-06-22 14:55:19.297 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 11.4569ms
+2024-06-22 14:55:19.302 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/auth/login - application/json 59
+2024-06-22 14:55:19.319 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404
+2024-06-22 14:55:19.323 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:19.329 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-22 14:55:19.333 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-06-22 14:55:19.380 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-06-22 14:55:19.636 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-06-22 14:55:19.805 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.LoginResponseDTO'.
+2024-06-22 14:55:19.808 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 471.3481ms
+2024-06-22 14:55:19.811 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-22 14:55:19.820 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/auth/login - 200 null application/json; charset=utf-8 511.4763ms
+2024-06-22 14:55:38.155 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 14:55:38.163 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:38.167 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 12.1294ms
+2024-06-22 14:55:38.183 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404
+2024-06-22 14:55:40.736 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/subcon - null null
+2024-06-22 14:55:40.747 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:40.749 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/subcon - 404 0 null 13.6225ms
+2024-06-22 14:55:40.765 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/subcon, Response status code: 404
+2024-06-22 14:55:49.266 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7061/api/auth/login - null null
+2024-06-22 14:55:49.267 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 14:55:49.271 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:49.282 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:49.283 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7061/api/auth/login - 204 null null 17.3133ms
+2024-06-22 14:55:49.285 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 18.1947ms
+2024-06-22 14:55:49.305 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/auth/login - application/json 59
+2024-06-22 14:55:49.318 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404
+2024-06-22 14:55:49.321 +01:00 [INF] CORS policy execution successful.
+2024-06-22 14:55:49.326 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-22 14:55:49.328 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-06-22 14:55:49.336 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-06-22 14:55:49.454 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-06-22 14:55:49.460 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.LoginResponseDTO'.
+2024-06-22 14:55:49.462 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 132.2991ms
+2024-06-22 14:55:49.465 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-06-22 14:55:49.467 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/auth/login - 200 null application/json; charset=utf-8 162.0973ms

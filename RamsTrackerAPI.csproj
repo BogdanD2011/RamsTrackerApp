@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Domain\Files.cs" />
+    <Compile Remove="Models\Domain\Subcontractor.cs" />
+    <Compile Remove="Models\DTO\RamsCountDTO.cs" />
     <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
 
@@ -30,7 +33,7 @@
   <ItemGroup>
     <Folder Include="Migrations\" />
     <Folder Include="Logs\" />
-    <Folder Include="UploadedFiles\" />
+    <Folder Include="UploadedFiles\MS\ApprovedFiles\" />
   </ItemGroup>
 
 </Project>

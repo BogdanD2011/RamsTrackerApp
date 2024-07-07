@@ -14,29 +14,29 @@ namespace RamsTrackerAPI.Middlewares
             this._next = next;
         }
 
-        public async Task InvokeAsync(HttpContext httpContext)
-        {
-            try
-            {
-                await _next(httpContext);
-            }
-            catch (Exception ex) 
-            {
-                var errorID = Guid.NewGuid();
-                // Log This Exception
-                _logger.LogError(ex, $"{errorID} : {ex.Message}");
-                //Return custom error response
-                httpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                httpContext.Response.ContentType = "application/json";
+        //public async Task InvokeAsync(HttpContext httpContext)
+        //{
+        //    try
+        //    {
+        //        await _next(httpContext);
+        //    }
+        //    catch (Exception ex) 
+        //    {
+        //        var errorID = Guid.NewGuid();
+        //        // Log This Exception
+        //        _logger.LogError(ex, $"{errorID} : {ex.Message}");
+        //        //Return custom error response
+        //        httpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+        //        httpContext.Response.ContentType = "application/json";
 
-                var error = new
-                {
-                    Id = errorID,
-                    ErrorMessage = "Something went wrong",
-                };
+        //        var error = new
+        //        {
+        //            Id = errorID,
+        //            ErrorMessage = "Something went wrong",
+        //        };
 
-                await httpContext.Response.WriteAsJsonAsync(error);
-            }
-        }
+        //        await httpContext.Response.WriteAsJsonAsync(error);
+        //    }
+        //}
     }
 }

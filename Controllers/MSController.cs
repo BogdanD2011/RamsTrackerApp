@@ -11,6 +11,9 @@ using RamsTrackerAPI.Repositories;
 using RamsTrackerAPI.CustomActionFilter;
 using Microsoft.AspNetCore.Authorization;
 using System.Text.Json;
+using System.IO;
+using System;
+using static System.Net.WebRequestMethods;
 
 namespace RamsTrackerAPI.Controllers
 {
@@ -23,18 +26,20 @@ namespace RamsTrackerAPI.Controllers
         private readonly IMSRepository _MSRepository;
         private readonly IMapper mapper;
         private readonly ILogger<MSController> _logger;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public MSController(RamsDbContext dbcontext, IMSRepository MSRepository, IMapper mapper,
-            ILogger<MSController> logger)
+            ILogger<MSController> logger, IHttpContextAccessor httpContextAccessor)
         {
             this.dbContext = dbcontext;
             this._MSRepository = MSRepository;
             this.mapper = mapper;
             this._logger = logger;
+            this._httpContextAccessor = httpContextAccessor;
         }
         // Get all MS
         [HttpGet]
-        [Authorize(Roles = "Writer, Reader")]
+        //[Authorize(Roles = "Writer, Reader")]
         public async Task<IActionResult> GetAll()
         {
 
@@ -66,7 +71,15 @@ namespace RamsTrackerAPI.Controllers
             return Ok(MSsDto);
 
         }
+        [HttpGet]
+        [Route("countrams")]
 
+        public async Task<IActionResult> countRams()
+        {
+            var countTotal = await  _MSRepository.CountRams();
+
+            return Ok(countTotal);
+        }
         //Get single MS by id
         // GET: https//localhost:portnumber/api/MS/{id}
         [HttpGet]
@@ -90,13 +103,18 @@ namespace RamsTrackerAPI.Controllers
 
         // POST: https//localhost:portnumber/api/MS
         [HttpPost]
-        [Authorize(Roles = "Writer")]
-        [ValidateModelAtribute]
-        public async Task<IActionResult> Create([FromBody] AddMSRequestDto addMSRequestDto)
+        //[Authorize(Roles = "Writer")]
+        //[ValidateModelAtribute]
+        public async Task<IActionResult> Create([FromForm] AddMSRequestDto addMSRequestDto)
         {
-            // Map or Convert DTO to Domain Model
+            ValidateFileUpload(addMSRequestDto);
+
+
+            if (ModelState.IsValid) 
+            {
+                // Map  DTO to Domain Model
             var MSDomainModel = mapper.Map<MS>(addMSRequestDto);
-           
+                      
 
             // Use Domain Model to create MS
             MSDomainModel = await _MSRepository.CreateAsync(MSDomainModel);
@@ -105,10 +123,27 @@ namespace RamsTrackerAPI.Controllers
             var MsDto = mapper.Map<MSDTO>(MSDomainModel);
 
             return CreatedAtAction(nameof(GetById), new { id = MSDomainModel.Id }, MsDto);
+        } 
+        return BadRequest(ModelState);
         }
 
-        // PUT: https//localhost:portnumber/api/MS/{id}
-        [HttpPut]
+        private void ValidateFileUpload(AddMSRequestDto request)
+        {
+            var allowedExtension = new string[] { ".pdf", ".doc", ".jpg", "jpeg" };
+
+            if (!allowedExtension.Contains(Path.GetExtension(request.uploadFile.FileName)))
+            {
+                ModelState.AddModelError("file", "Unsuported file extension");
+
+            }
+            if (request.uploadFile.Length > 10485760)
+            {
+                ModelState.AddModelError("file", "File size more than 10Mb");
+            }
+        }
+
+            // PUT: https//localhost:portnumber/api/MS/{id}
+            [HttpPut]
         [Authorize(Roles = "Writer")]
         [Route("{id:Guid}")]
         [ValidateModelAtribute]

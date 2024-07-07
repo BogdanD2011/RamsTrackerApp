@@ -22,14 +22,92 @@ namespace RamsTrackerAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.Files", b =>
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.Contractor", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("FileDescription")
+                    b.Property<string>("Activity")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("HsPersId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("HsPersonContactId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HsPersonContactId");
+
+                    b.ToTable("Contractor");
+                });
+
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.ContractorFlow", b =>
+                {
+                    b.Property<Guid>("ContractorId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ProjectId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("DurationOnSite")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ContractorId", "ProjectId");
+
+                    b.HasIndex("ProjectId");
+
+                    b.ToTable("ContractorFlow");
+                });
+
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.HsPersonContact", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HsPersonContacts");
+                });
+
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.MS", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ApprovedSheetPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("ContractorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FileExtension")
                         .IsRequired()
@@ -46,37 +124,53 @@ namespace RamsTrackerAPI.Migrations
                     b.Property<long>("FileSizeInBytes")
                         .HasColumnType("bigint");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Files");
-                });
-
-            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.MS", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("MS_Title")
+                    b.Property<string>("MsTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("RAid")
+                    b.Property<Guid>("ProjectId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("SubcontractorId")
+                    b.Property<Guid?>("RaId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("RevDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("revision")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RAid");
-
-                    b.HasIndex("SubcontractorId");
-
                     b.ToTable("MS");
+                });
+
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.Project", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("Duration")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProjName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProjNumber")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Project");
                 });
 
             modelBuilder.Entity("RamsTrackerAPI.Models.Domain.RA", b =>
@@ -85,57 +179,100 @@ namespace RamsTrackerAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("DownloadUrl")
+                    b.Property<string>("ApprovedSheetPAth")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("ContractorId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("FileExtension")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("FileSizeInBytes")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid>("ProjectId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("RevDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Revision")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("revision")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("ContractorId");
+
+                    b.HasIndex("ProjectId");
 
                     b.ToTable("RA");
                 });
 
-            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.Subcontractor", b =>
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.Contractor", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                    b.HasOne("RamsTrackerAPI.Models.Domain.HsPersonContact", "HsPersonContact")
+                        .WithMany()
+                        .HasForeignKey("HsPersonContactId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<string>("Activity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Subcontractor");
+                    b.Navigation("HsPersonContact");
                 });
 
-            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.MS", b =>
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.ContractorFlow", b =>
                 {
-                    b.HasOne("RamsTrackerAPI.Models.Domain.RA", "RA")
+                    b.HasOne("RamsTrackerAPI.Models.Domain.Contractor", "Contractor")
                         .WithMany()
-                        .HasForeignKey("RAid")
+                        .HasForeignKey("ContractorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RamsTrackerAPI.Models.Domain.Subcontractor", "Subcontractor")
+                    b.HasOne("RamsTrackerAPI.Models.Domain.Project", "Project")
                         .WithMany()
-                        .HasForeignKey("SubcontractorId")
+                        .HasForeignKey("ProjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("RA");
+                    b.Navigation("Contractor");
 
-                    b.Navigation("Subcontractor");
+                    b.Navigation("Project");
+                });
+
+            modelBuilder.Entity("RamsTrackerAPI.Models.Domain.RA", b =>
+                {
+                    b.HasOne("RamsTrackerAPI.Models.Domain.Contractor", "Contractor")
+                        .WithMany()
+                        .HasForeignKey("ContractorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RamsTrackerAPI.Models.Domain.Project", "Project")
+                        .WithMany()
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Contractor");
+
+                    b.Navigation("Project");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,18 @@
+2024-06-23 09:06:00.070 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.774ms
+2024-06-23 09:06:00.171 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-06-23 09:06:00.538 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 366.9664ms
+2024-06-23 09:06:35.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-06-23 09:06:35.578 +01:00 [INF] CORS policy execution successful.
+2024-06-23 09:06:36.281 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 09:06:36.361 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-23 09:06:40.230 +01:00 [INF] Executed DbCommand (190ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-06-23 09:06:40.341 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MS_Title] = N'Pouring concrete'
+2024-06-23 09:06:40.361 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-06-23 09:06:40.381 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 4008.1373ms
+2024-06-23 09:06:40.384 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 09:06:40.403 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 4890.3367ms

@@ -5,6 +5,6 @@ namespace RamsTrackerAPI.Repositories
 {
     public interface IFilesRepository
     {
-        Task<Files> Upload(Files files);
+        
     }
 }

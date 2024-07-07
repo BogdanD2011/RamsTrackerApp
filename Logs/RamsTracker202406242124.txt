@@ -1,0 +1,88 @@
+2024-06-24 21:24:17.208 +01:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-24 21:24:17.388 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-24 21:24:17.431 +01:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-24 21:24:17.485 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-24 21:24:17.647 +01:00 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-24 21:24:17.673 +01:00 [INF] Applying migration '20240623202750_Initial migration for RamsDbContext'.
+2024-06-24 21:24:18.050 +01:00 [INF] Executed DbCommand (203ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [HsPersonContacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Phone] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_HsPersonContacts] PRIMARY KEY ([Id])
+);
+2024-06-24 21:24:18.060 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Project] (
+    [Id] uniqueidentifier NOT NULL,
+    [ProjNumber] int NOT NULL,
+    [ProjName] nvarchar(max) NOT NULL,
+    [StartDate] datetime2 NOT NULL,
+    [Duration] int NULL,
+    CONSTRAINT [PK_Project] PRIMARY KEY ([Id])
+);
+2024-06-24 21:24:18.068 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contractor] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Activity] nvarchar(max) NOT NULL,
+    [HsPersId] uniqueidentifier NOT NULL,
+    [HsPersonContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Contractor] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Contractor_HsPersonContacts_HsPersonContactId] FOREIGN KEY ([HsPersonContactId]) REFERENCES [HsPersonContacts] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:24:18.358 +01:00 [INF] Executed DbCommand (290ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ContractorFlow] (
+    [ContractorId] uniqueidentifier NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [StartDate] datetime2 NOT NULL,
+    [DurationOnSite] int NOT NULL,
+    CONSTRAINT [PK_ContractorFlow] PRIMARY KEY ([ContractorId], [ProjectId]),
+    CONSTRAINT [FK_ContractorFlow_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_ContractorFlow_Project_ProjectId] FOREIGN KEY ([ProjectId]) REFERENCES [Project] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:24:18.668 +01:00 [INF] Executed DbCommand (309ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RA] (
+    [Id] uniqueidentifier NOT NULL,
+    [ContractorId] uniqueidentifier NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [Revision] int NOT NULL,
+    [RevDate] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [ApprovedSheetPAth] nvarchar(max) NULL,
+    CONSTRAINT [PK_RA] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_RA_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RA_Project_ProjectId] FOREIGN KEY ([ProjectId]) REFERENCES [Project] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:24:18.904 +01:00 [ERR] Failed executing DbCommand (234ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MS] (
+    [Id] uniqueidentifier NOT NULL,
+    [ContractorId] uniqueidentifier NOT NULL,
+    [RaId] uniqueidentifier NOT NULL,
+    [MsTitle] nvarchar(max) NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [revision] int NOT NULL,
+    [RevDate] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [ApprovedSheetPath] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_MS] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MS_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_MS_RA_RaId] FOREIGN KEY ([RaId]) REFERENCES [RA] ([Id]) ON DELETE CASCADE
+);

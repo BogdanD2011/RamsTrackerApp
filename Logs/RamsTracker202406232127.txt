@@ -1,0 +1,14 @@
+2024-06-23 21:27:22.351 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-23 21:27:23.859 +01:00 [INF] Now listening on: https://localhost:7061
+2024-06-23 21:27:23.862 +01:00 [INF] Now listening on: http://localhost:5090
+2024-06-23 21:27:23.868 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 21:27:24.097 +01:00 [INF] Hosting environment: Development
+2024-06-23 21:27:24.100 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-06-23 21:27:25.400 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-06-23 21:27:26.497 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 1109.7845ms
+2024-06-23 21:27:26.669 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 21:27:26.797 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-06-23 21:27:26.818 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 150.1401ms
+2024-06-23 21:27:27.012 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 214.3065ms
+2024-06-23 21:27:27.190 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-06-23 21:27:27.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 412.4309ms

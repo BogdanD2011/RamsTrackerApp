@@ -1,0 +1,4 @@
+2024-06-22 18:06:12.286 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 18:06:12.371 +01:00 [INF] CORS policy execution successful.
+2024-06-22 18:06:12.381 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 109.4103ms
+2024-06-22 18:06:12.402 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404

@@ -17,30 +17,30 @@ namespace RamsTrackerAPI.Controllers
         {
             this._filesRepository = filesRepository;
         }
-        // POST: /api/UploadFiles/Upload
-        [HttpPost]
-        [Route("Upload")]
-        public async Task<IActionResult> Upload([FromForm] FilesUploadRequestDTO request)
-        {
-            ValidateFileUpload(request);
+        //// POST: /api/UploadFiles/Upload
+        ////[HttpPost]
+        ////[Route("Upload")]
+        ////public async Task<IActionResult> Upload([FromForm] FilesUploadRequestDTO request)
+        ////{
+        ////    ValidateFileUpload(request);
 
-            if (ModelState.IsValid)
-            {
-                //convert DTO to Domain model
-                var fileDomainModel = new Files
-                {
-                    uploadFile = request.uploadFile,
-                    FileName = request.FileName,
-                    FileExtension = request.FileExtension,
-                    FileDescription = request.FileDescription
-                };
-                // User repository to upload file
-                await _filesRepository.Upload(fileDomainModel);
-                return Ok(fileDomainModel);
-            }
+        ////    if (ModelState.IsValid)
+        ////    {
+        ////        //convert DTO to Domain model
+        ////        var fileDomainModel = new Files
+        ////        {
+        ////            uploadFile = request.uploadFile,
+        ////            FileName = request.FileName,
+        ////            FileExtension = request.FileExtension,
+        ////            FileDescription = request.FileDescription
+        ////        };
+        ////        // User repository to upload file
+        ////        await _filesRepository.Upload(fileDomainModel);
+        ////        return Ok(fileDomainModel);
+        ////    }
 
-            return BadRequest(ModelState);
-        }
+        ////    return BadRequest(ModelState);
+        ////}
 
         private void ValidateFileUpload(FilesUploadRequestDTO request)
         {

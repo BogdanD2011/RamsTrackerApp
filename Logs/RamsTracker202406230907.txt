@@ -1,0 +1,41 @@
+2024-06-23 09:07:10.408 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-06-23 09:07:10.496 +01:00 [INF] CORS policy execution successful.
+2024-06-23 09:07:10.505 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-23 09:07:10.522 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-23 09:07:10.688 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[MS_Title], [m].[RAid], [m].[SubcontractorId], [m].[revision]
+FROM [MS] AS [m]
+2024-06-23 09:07:10.844 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 09:07:10.878 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 348.8063ms
+2024-06-23 09:07:10.885 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-23 09:07:10.887 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 200 null application/json; charset=utf-8 524.0001ms
+2024-06-23 09:07:14.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-06-23 09:07:14.235 +01:00 [INF] CORS policy execution successful.
+2024-06-23 09:07:14.241 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-23 09:07:14.244 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-23 09:07:14.392 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[MS_Title], [m].[RAid], [m].[SubcontractorId], [m].[revision]
+FROM [MS] AS [m]
+2024-06-23 09:07:14.400 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 09:07:14.403 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 154.1723ms
+2024-06-23 09:07:14.412 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-06-23 09:07:14.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 200 null application/json; charset=utf-8 194.388ms
+2024-06-23 09:07:17.249 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/subcon - null null
+2024-06-23 09:07:17.283 +01:00 [INF] CORS policy execution successful.
+2024-06-23 09:07:17.286 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/subcon - 404 0 null 37.0435ms
+2024-06-23 09:07:17.300 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/subcon, Response status code: 404
+2024-06-23 09:07:20.745 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-06-23 09:07:20.753 +01:00 [INF] CORS policy execution successful.
+2024-06-23 09:07:20.755 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 09:07:20.757 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-23 09:07:20.768 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-06-23 09:07:20.781 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MS_Title] = N'Pouring concrete'
+2024-06-23 09:07:20.786 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-06-23 09:07:20.788 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 26.6711ms
+2024-06-23 09:07:20.797 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 09:07:20.800 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 54.2784ms

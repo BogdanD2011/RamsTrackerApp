@@ -40,7 +40,7 @@ namespace RamsTrackerAPI.Controllers.AuthControllers
 
                     if (identityResult.Succeeded)
                     {
-                        return Ok("User was registered! Please login!");
+                        return Ok(registerRequestDTO);
                     }
                 }
             }
@@ -70,7 +70,10 @@ namespace RamsTrackerAPI.Controllers.AuthControllers
                        var jwtToken =  _tokenRepository.CreateJwtToken(user, roles.ToList());
                         var response = new LoginResponseDTO
                         {
+                            Username = loginRequestDTO.Username,
+                            Roles = roles.ToArray(),
                             JwtToken = jwtToken
+
 
                         };
                        return Ok(response);

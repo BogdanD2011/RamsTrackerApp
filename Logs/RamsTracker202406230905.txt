@@ -1,0 +1,11 @@
+2024-06-23 09:05:55.385 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-23 09:05:57.485 +01:00 [INF] Now listening on: https://localhost:7061
+2024-06-23 09:05:57.487 +01:00 [INF] Now listening on: http://localhost:5090
+2024-06-23 09:05:57.492 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 09:05:57.494 +01:00 [INF] Hosting environment: Development
+2024-06-23 09:05:57.496 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-06-23 09:05:58.947 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-06-23 09:05:59.778 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 839.6036ms
+2024-06-23 09:05:59.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 09:05:59.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-06-23 09:05:59.900 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 90.2225ms

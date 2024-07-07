@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using RamsTrackerAPI.Models.Domain;
 
 namespace RamsTrackerAPI.Data
@@ -10,18 +11,19 @@ namespace RamsTrackerAPI.Data
             
         }
 
-        public DbSet<RA> RA { get; set; }
-
-        public DbSet<Subcontractor> Subcontractor { get; set; }
+        public DbSet<Contractor> Contractor { get; set; }
+        public DbSet<ContractorFlow> ContractorFlow { get; set; }
+        public DbSet<HsPersonContact> HsPersonContacts { get; set; }
         public DbSet<MS> MS { get; set; }
-
-        public DbSet<Files> Files { get; set; }
+        public DbSet<Project> Project { get; set; }
+        public DbSet<RA> RA { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            // Seed data for Subcontractor
+            modelBuilder.Entity<ContractorFlow>().HasKey(t => new { t.ContractorId, t.ProjectId });
+            //modelBuilder.Entity<RA>().HasOne(p => p.MS).WithOne(t => t.RA).OnDelete(DeleteBehavior.Cascade);
+           
         }
     }
 }

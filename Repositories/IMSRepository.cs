@@ -12,6 +12,7 @@ namespace RamsTrackerAPI.Repositories
 
         Task<MS?> UpdateAsync(Guid id, MS Ms);
         Task<MS?> DeleteAsync(Guid id);
+        Task<RamsCount> CountRams();
 
     }
 }

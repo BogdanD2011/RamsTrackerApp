@@ -1,0 +1,15 @@
+2024-06-23 16:59:24.201 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-06-23 16:59:24.262 +01:00 [INF] CORS policy execution successful.
+2024-06-23 16:59:24.275 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 16:59:24.325 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-06-23 16:59:25.041 +01:00 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-06-23 16:59:25.107 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MS_Title] = N'Pouring concrete'
+2024-06-23 16:59:25.117 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-06-23 16:59:25.129 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 796.4669ms
+2024-06-23 16:59:25.136 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-06-23 16:59:25.154 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 958.8144ms

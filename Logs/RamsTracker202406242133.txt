@@ -1,0 +1,103 @@
+2024-06-24 21:33:13.363 +01:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-24 21:33:13.569 +01:00 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-24 21:33:13.576 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-24 21:33:13.580 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-24 21:33:13.613 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-24 21:33:13.641 +01:00 [INF] Applying migration '20240624203254_1st migration for RamsDbContext'.
+2024-06-24 21:33:14.020 +01:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [HsPersonContacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Phone] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_HsPersonContacts] PRIMARY KEY ([Id])
+);
+2024-06-24 21:33:14.040 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Project] (
+    [Id] uniqueidentifier NOT NULL,
+    [ProjNumber] int NOT NULL,
+    [ProjName] nvarchar(max) NOT NULL,
+    [StartDate] datetime2 NOT NULL,
+    [Duration] int NULL,
+    CONSTRAINT [PK_Project] PRIMARY KEY ([Id])
+);
+2024-06-24 21:33:14.063 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contractor] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Activity] nvarchar(max) NOT NULL,
+    [HsPersId] uniqueidentifier NOT NULL,
+    [HsPersonContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Contractor] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Contractor_HsPersonContacts_HsPersonContactId] FOREIGN KEY ([HsPersonContactId]) REFERENCES [HsPersonContacts] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:33:14.069 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ContractorFlow] (
+    [ContractorId] uniqueidentifier NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [StartDate] datetime2 NOT NULL,
+    [DurationOnSite] int NOT NULL,
+    CONSTRAINT [PK_ContractorFlow] PRIMARY KEY ([ContractorId], [ProjectId]),
+    CONSTRAINT [FK_ContractorFlow_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_ContractorFlow_Project_ProjectId] FOREIGN KEY ([ProjectId]) REFERENCES [Project] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:33:14.084 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RA] (
+    [Id] uniqueidentifier NOT NULL,
+    [ContractorId] uniqueidentifier NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [Revision] int NOT NULL,
+    [RevDate] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [ApprovedSheetPAth] nvarchar(max) NULL,
+    CONSTRAINT [PK_RA] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_RA_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RA_Project_ProjectId] FOREIGN KEY ([ProjectId]) REFERENCES [Project] ([Id]) ON DELETE CASCADE
+);
+2024-06-24 21:33:14.670 +01:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MS] (
+    [Id] uniqueidentifier NOT NULL,
+    [ContractorId] uniqueidentifier NOT NULL,
+    [RaId] uniqueidentifier NULL,
+    [MsTitle] nvarchar(max) NOT NULL,
+    [ProjectId] uniqueidentifier NOT NULL,
+    [revision] int NOT NULL,
+    [RevDate] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [ApprovedSheetPath] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_MS] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MS_Contractor_ContractorId] FOREIGN KEY ([ContractorId]) REFERENCES [Contractor] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_MS_RA_RaId] FOREIGN KEY ([RaId]) REFERENCES [RA] ([Id])
+);
+2024-06-24 21:33:14.767 +01:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Contractor_HsPersonContactId] ON [Contractor] ([HsPersonContactId]);
+2024-06-24 21:33:14.772 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ContractorFlow_ProjectId] ON [ContractorFlow] ([ProjectId]);
+2024-06-24 21:33:14.783 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MS_ContractorId] ON [MS] ([ContractorId]);
+2024-06-24 21:33:16.529 +01:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MS_RaId] ON [MS] ([RaId]);
+2024-06-24 21:33:16.545 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RA_ContractorId] ON [RA] ([ContractorId]);
+2024-06-24 21:33:16.586 +01:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RA_ProjectId] ON [RA] ([ProjectId]);
+2024-06-24 21:33:16.655 +01:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240624203254_1st migration for RamsDbContext', N'8.0.6');

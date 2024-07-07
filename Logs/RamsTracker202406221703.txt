@@ -1,0 +1,8 @@
+2024-06-22 17:03:40.719 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 17:03:40.790 +01:00 [INF] CORS policy execution successful.
+2024-06-22 17:03:42.029 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 1316.3825ms
+2024-06-22 17:03:43.357 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404
+2024-06-22 17:03:45.054 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/countrams - null null
+2024-06-22 17:03:45.102 +01:00 [INF] CORS policy execution successful.
+2024-06-22 17:03:45.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/countrams - 404 0 null 53.1977ms
+2024-06-22 17:03:45.125 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/countrams, Response status code: 404

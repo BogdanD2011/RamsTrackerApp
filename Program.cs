@@ -19,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var logger = new LoggerConfiguration()
     .WriteTo.Console()
-    .WriteTo.File("Logs/RamsTracker.txt", rollingInterval: RollingInterval.Minute)
+    .WriteTo.File("Logs/RamsTracker.txt", rollingInterval: RollingInterval.Day)
     .MinimumLevel.Information()
     .CreateLogger();
 
@@ -70,9 +70,11 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("RamsTrackerAuthC
 
 builder.Services.AddScoped<IMSRepository, SQLMSRepository>();
 builder.Services.AddScoped<IRaRepository, SQLRaRepository>();
-builder.Services.AddScoped<ISubcontractorRepository, SQLSubcontractorRepository>();
+builder.Services.AddScoped<IContractorRepository, SQLContractorRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 builder.Services.AddScoped<IFilesRepository, LocalFilesRepository>();
+builder.Services.AddScoped<IProjectRepository, SQLProjectPrepository>();
+builder.Services.AddScoped<IHsPersonContactRepository, SQLHsPersonContactRepository>();
 
 // Automaper
 builder.Services.AddAutoMapper(typeof(AutomapperProfiles));
@@ -117,9 +119,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<RamsTrackerAPI.Middlewares.ExceptionHandlerMiddleware>();
+//app.UseMiddleware<RamsTrackerAPI.Middlewares.ExceptionHandlerMiddleware>();
 
 app.UseHttpsRedirection();
+
+app.UseCors(options =>
+{
+    options.AllowAnyHeader();
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+});
 
 app.UseAuthentication();
 

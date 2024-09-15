@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RamsTrackerAPI.CustomActionFilter;
 using RamsTrackerAPI.Data;
 using RamsTrackerAPI.Models.Domain;
 using RamsTrackerAPI.Models.DTO;
@@ -72,6 +74,47 @@ namespace RamsTrackerAPI.Controllers
                 return CreatedAtAction(nameof(GetById), new { id = ProjectDomainModel.Id }, ProjectDto);
             }
             return BadRequest(ModelState);
+        }
+        [HttpPut]
+        //[Authorize(Roles = "Writer")]
+        [Route("{id:Guid}")]
+        [ValidateModelAtribute]
+        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] ProjectDTO project)
+        {
+            // Map DTO to domain model
+
+            var ProjectDomainModel = _mapper.Map<Project>(project);
+
+            // Check if MS exist
+            ProjectDomainModel = await _projectRepository.UpdateAsync(id, ProjectDomainModel);
+
+            if (ProjectDomainModel == null)
+            {
+                return NotFound();
+            }
+
+            //Convert and return Domain Model to Dto
+
+            return Ok(_mapper.Map<ProjectDTO>(ProjectDomainModel));
+        }
+
+        //Delete Region
+        // DELETE: https://localhost:portnumber/api/MS/{id}
+        [HttpDelete]
+        //[Authorize(Roles = "Writer")]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> Delete([FromRoute] Guid id)
+        {
+            var ProjectDomainModel = await _projectRepository.DeleteAsync(id);
+
+            if (ProjectDomainModel == null)
+            {
+                return NotFound();
+            }
+
+            // return deleted MS
+
+            return Ok(_mapper.Map<ProjectDTO>(ProjectDomainModel));
         }
 
     }

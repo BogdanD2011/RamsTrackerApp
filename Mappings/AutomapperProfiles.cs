@@ -11,7 +11,8 @@ namespace RamsTrackerAPI.Mappings
         public AutomapperProfiles()
         {
            
-            CreateMap<MS, MSDTO>().ReverseMap();
+            CreateMap<MS, MSDTO>().ForMember(x => x.Subcontractor, opt => opt.MapFrom((src, dest, destMember, context) => context.Items["Subcontractor"]));
+            CreateMap<MSDTO,MS>();
             CreateMap<AddMSRequestDto, MS>().ReverseMap();
             CreateMap<UpdateMSRequestDto, MS>().ReverseMap();
             CreateMap<AddRaDTO, RA>().ReverseMap();

@@ -6,20 +6,25 @@ using RamsTrackerAPI.CustomActionFilter;
 using RamsTrackerAPI.Models.Domain;
 using RamsTrackerAPI.Models.DTO;
 using RamsTrackerAPI.Repositories;
+using System.ComponentModel.DataAnnotations;
 
 namespace RamsTrackerAPI.Controllers
 {
-    // /api/Subcontractor
+    // /api/Contractor
     [Route("api/[controller]")]
     [ApiController]
     public class ContractorController : ControllerBase
     {
         private readonly IMapper _mapper;
         private readonly IContractorRepository _subcontractorRepository;
-        public ContractorController(IMapper mapper, IContractorRepository subcontractorRepository)
+        private readonly IHsPersonContactRepository _hsPersonContactRepository;
+
+        public ContractorController(IMapper mapper, IContractorRepository subcontractorRepository, IHsPersonContactRepository hsPersonContactRepository)
         {
             this._mapper = mapper;
             this._subcontractorRepository = subcontractorRepository;
+            this._hsPersonContactRepository = hsPersonContactRepository;
+           
         }
 
         [HttpGet]
@@ -32,13 +37,30 @@ namespace RamsTrackerAPI.Controllers
             return Ok(_mapper.Map<List<ContractorDTO>>(SubcontractorDomain));
 
         }
-        // POST: https://localhost:portnumber/api/Subcontractor
+        // POST: https://localhost:portnumber/api/Contractor
         [HttpPost]
         public async Task<IActionResult> AddSubcontractor([FromBody] AddContractorDTO addSubcontractorDTO)
         {
+            // Create new hsPersonContact domain
+            HsPersonContact hsPersonContactDomain = new HsPersonContact()
+            {
+                 FirstName = addSubcontractorDTO.HsPersonFirstName,
+                 LastName = addSubcontractorDTO.HsPersonLastName,
+                 Email = addSubcontractorDTO.HsPersonEmail,
+                 Phone = addSubcontractorDTO.HsPersonPhone
+            };
+
+            // Add new HsPerson in Db first
+            var HsPers = _hsPersonContactRepository.CreateAsync(hsPersonContactDomain);
+
+            
             // Mapp DTO to domain model
             var SubcontractorDomain = _mapper.Map<Contractor>(addSubcontractorDTO);
 
+
+            // Assign HsPers Id to Contractor DTO
+            SubcontractorDomain.HsPersId = HsPers.Result.Id;
+            SubcontractorDomain.HsPersonContact = _mapper.Map<HsPersonContact>(HsPers.Result);
 
             // Use domain model to create new subcontractor 
             SubcontractorDomain = await _subcontractorRepository.AddSubcontractorAsync(SubcontractorDomain);
@@ -67,7 +89,7 @@ namespace RamsTrackerAPI.Controllers
 
         // PUT: https//localhost:portnumber/api/MS/{id}
         [HttpPut]
-        //[Authorize(Roles = "Writer")]
+        [Authorize(Roles = "Writer")]
         [Route("{id:Guid}")]
         [ValidateModelAtribute]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] ContractorDTO contractor)

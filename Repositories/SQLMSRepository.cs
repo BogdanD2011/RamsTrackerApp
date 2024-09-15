@@ -76,9 +76,13 @@ namespace RamsTrackerAPI.Repositories
             return existingMs;
         }
 
-        public async Task<List<MS>> GetAllAsync()
+        public async Task<List<MS>> GetAllAsync(Guid id)
         {
-            return await _dbContext.MS.ToListAsync();
+            //return full list if user is Contractor
+            if (id == Guid.Empty)
+                return await _dbContext.MS.ToListAsync();
+            else
+                return await _dbContext.MS.Where(m => m.ContractorId == id).ToListAsync();
         }
 
         public async Task<MS?> GetByIdAsync(Guid id)

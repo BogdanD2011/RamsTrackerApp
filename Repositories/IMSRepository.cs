@@ -5,7 +5,7 @@ namespace RamsTrackerAPI.Repositories
 {
     public interface IMSRepository
     {
-       Task<List<MS>> GetAllAsync();
+       Task<List<MS>> GetAllAsync(Guid id);
         Task<MS?> GetByIdAsync(Guid id);
 
         Task<MS> CreateAsync(MS Ms);

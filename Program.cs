@@ -12,6 +12,7 @@ using Microsoft.Extensions.FileProviders;
 using Serilog;
 using Microsoft.AspNetCore.Diagnostics;
 using RamsTrackerAPI.Middlewares;
+using RamsTrackerAPI.Data.Account;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -75,16 +76,19 @@ builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 builder.Services.AddScoped<IFilesRepository, LocalFilesRepository>();
 builder.Services.AddScoped<IProjectRepository, SQLProjectPrepository>();
 builder.Services.AddScoped<IHsPersonContactRepository, SQLHsPersonContactRepository>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 // Automaper
 builder.Services.AddAutoMapper(typeof(AutomapperProfiles));
 
 //Auth identity
-builder.Services.AddIdentityCore<IdentityUser>()
+builder.Services.AddIdentityCore<User>()
     .AddRoles<IdentityRole>()
-    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Rams")
+    .AddTokenProvider<DataProtectorTokenProvider<User>>("Rams")
     .AddEntityFrameworkStores<RamsAuthDbContext>()
     .AddDefaultTokenProviders();
+
+
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -94,6 +98,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequiredLength = 5;
     options.Password.RequiredUniqueChars = 1;
+    options.SignIn.RequireConfirmedEmail = true;
 });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

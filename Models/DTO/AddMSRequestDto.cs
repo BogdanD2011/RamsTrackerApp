@@ -8,20 +8,20 @@ namespace RamsTrackerAPI.Models.DTO
     public class AddMSRequestDto
     {
         public Guid Id { get; set; }
-        public Guid ContractorId { get; set; }
+        public Guid? ContractorId { get; set; }
         //public virtual Contractor Contractor { get; set; }
 
         public Guid? RaId { get; set; }
         //public virtual RA RA { get; set; }
         public string MsTitle { get; set; }
-        public Guid ProjectId { get; set; }
+        public Guid? ProjectId { get; set; }
         public int revision { get; set; }
         public DateTime RevDate { get; set; }
 
         //public string Status { get; set; }
 
-        [Required]
-        public IFormFile uploadFile { get; set; }
+        
+        public IFormFile? uploadFile { get; set; }
         //public string FileName { get; set; }
         //public string FileExtension { get; set; }
         //public long FileSizeInBytes { get; set; }

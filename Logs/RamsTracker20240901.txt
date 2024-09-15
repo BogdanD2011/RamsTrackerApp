@@ -1,0 +1,1024 @@
+2024-09-01 13:46:29.947 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 13:46:32.109 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 13:46:32.143 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 13:46:32.279 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 13:46:32.282 +01:00 [INF] Hosting environment: Development
+2024-09-01 13:46:32.283 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 13:46:33.284 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 13:46:34.251 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 978.451ms
+2024-09-01 13:46:34.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.css - null null
+2024-09-01 13:46:34.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-01 13:46:34.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui-bundle.js - null null
+2024-09-01 13:46:34.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui.css - null null
+2024-09-01 13:46:34.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 13:46:34.321 +01:00 [INF] The file /index.css was not modified
+2024-09-01 13:46:34.321 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-09-01 13:46:34.321 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-09-01 13:46:34.324 +01:00 [INF] The file /swagger-ui.css was not modified
+2024-09-01 13:46:34.342 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui.css - 304 null text/css 47.4215ms
+2024-09-01 13:46:34.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui-bundle.js - 304 null text/javascript 43.4234ms
+2024-09-01 13:46:34.335 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.css - 304 null text/css 39.5519ms
+2024-09-01 13:46:34.336 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 40.7572ms
+2024-09-01 13:46:34.353 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 13:46:34.359 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 13:46:34.383 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 88.4494ms
+2024-09-01 13:46:34.393 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 40.4313ms
+2024-09-01 13:46:34.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 237.5024ms
+2024-09-01 13:46:34.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 13:46:35.280 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.8739ms
+2024-09-01 14:00:00.457 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 14:00:00.965 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 14:00:00.966 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 14:00:01.095 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 14:00:01.107 +01:00 [INF] Hosting environment: Development
+2024-09-01 14:00:01.115 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 14:00:02.292 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 14:00:03.137 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 850.2758ms
+2024-09-01 14:00:03.169 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 14:00:03.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 14:00:03.176 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 14:00:03.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 66.2212ms
+2024-09-01 14:00:03.254 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 84.003ms
+2024-09-01 14:00:03.333 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.941ms
+2024-09-01 14:00:03.744 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 14:00:04.093 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.3935ms
+2024-09-01 14:01:00.925 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 14:01:00.950 +01:00 [INF] CORS policy execution successful.
+2024-09-01 14:01:01.412 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 14:01:01.533 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 14:01:12.069 +01:00 [INF] Executed DbCommand (743ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 14:01:13.118 +01:00 [INF] Executed DbCommand (139ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-09-01 14:01:13.224 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 14:01:13.437 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-09-01 14:01:13.471 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 14:01:13.552 +01:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 14:01:13.704 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-09-01 14:01:17.043 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO'.
+2024-09-01 14:01:17.088 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 15534.5769ms
+2024-09-01 14:01:17.093 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 14:01:17.128 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 200 null application/json; charset=utf-8 16204.0175ms
+2024-09-01 14:02:05.358 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Login - application/json 69
+2024-09-01 14:02:05.372 +01:00 [INF] CORS policy execution successful.
+2024-09-01 14:02:05.376 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-01 14:02:05.395 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 14:02:05.731 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-09-01 14:02:05.755 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 14:02:05.761 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 357.5024ms
+2024-09-01 14:02:05.769 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-01 14:02:05.776 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Login - 400 null text/plain; charset=utf-8 418.9471ms
+2024-09-01 14:12:57.006 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 14:12:57.694 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 14:12:57.696 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 14:12:57.788 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 14:12:57.798 +01:00 [INF] Hosting environment: Development
+2024-09-01 14:12:57.803 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 14:12:58.827 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 14:12:59.481 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 665.9461ms
+2024-09-01 14:12:59.605 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 14:12:59.606 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 14:12:59.608 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 14:12:59.732 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 125.9929ms
+2024-09-01 14:12:59.759 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 154.6237ms
+2024-09-01 14:12:59.895 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 287.0032ms
+2024-09-01 14:12:59.994 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 14:13:00.500 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 505.802ms
+2024-09-01 14:13:32.373 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Login - application/json 69
+2024-09-01 14:13:32.410 +01:00 [INF] CORS policy execution successful.
+2024-09-01 14:13:32.772 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-01 14:13:32.891 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 14:13:38.742 +01:00 [INF] Executed DbCommand (163ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-09-01 14:13:39.275 +01:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-01 14:13:39.299 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 6375.7933ms
+2024-09-01 14:13:39.305 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-01 14:13:39.326 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Login - 401 null text/plain; charset=utf-8 6953.8454ms
+2024-09-01 14:22:48.013 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 14:22:48.054 +01:00 [INF] CORS policy execution successful.
+2024-09-01 14:22:48.089 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 14:22:48.136 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 14:22:49.089 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 14:22:49.632 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-09-01 14:22:49.750 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 14:22:49.950 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-09-01 14:22:50.001 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 14:22:50.102 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 14:22:50.257 +01:00 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-09-01 14:22:52.146 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO'.
+2024-09-01 14:22:52.160 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 4009.5381ms
+2024-09-01 14:22:52.164 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 14:22:52.167 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 200 null application/json; charset=utf-8 4161.0919ms
+2024-09-01 15:25:54.245 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:25:55.091 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:25:55.093 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:25:55.197 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:25:55.200 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:25:55.209 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:25:56.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:25:58.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 1692.0252ms
+2024-09-01 15:25:58.339 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:25:58.339 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:25:58.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:25:58.406 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 67.8717ms
+2024-09-01 15:25:58.408 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 68.1643ms
+2024-09-01 15:25:59.000 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 657.2978ms
+2024-09-01 15:25:59.105 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:25:59.918 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 813.439ms
+2024-09-01 15:26:36.347 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 15:26:36.382 +01:00 [INF] CORS policy execution successful.
+2024-09-01 15:26:36.715 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:26:36.798 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:26:42.846 +01:00 [INF] Executed DbCommand (255ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:26:43.413 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:26:43.442 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 6616.4881ms
+2024-09-01 15:26:43.457 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:26:43.486 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 400 null text/plain; charset=utf-8 7185.0843ms
+2024-09-01 15:27:11.364 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 15:27:11.534 +01:00 [INF] CORS policy execution successful.
+2024-09-01 15:27:11.550 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:27:11.554 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:27:12.224 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:27:12.738 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-09-01 15:27:12.867 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:27:13.082 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-09-01 15:27:13.106 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:27:13.160 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:27:13.336 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-09-01 15:27:15.126 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO'.
+2024-09-01 15:27:15.140 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 3576.4478ms
+2024-09-01 15:27:15.145 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:27:15.149 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 200 null application/json; charset=utf-8 3791.8104ms
+2024-09-01 15:27:47.372 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:27:47.423 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-09-01 15:27:47.427 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-09-01 15:27:47.429 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - 405 0 null 93.0157ms
+2024-09-01 15:30:46.739 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:30:47.456 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:30:47.459 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:30:47.725 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:30:47.778 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:30:47.793 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:30:48.648 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:30:49.698 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 1058.3973ms
+2024-09-01 15:30:49.770 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:30:49.771 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:30:49.771 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:30:49.819 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 48.4916ms
+2024-09-01 15:30:49.851 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 81.5626ms
+2024-09-01 15:30:50.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 342.2963ms
+2024-09-01 15:30:50.378 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:30:51.166 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 789.414ms
+2024-09-01 15:31:01.077 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:31:01.326 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-09-01 15:31:01.330 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-09-01 15:31:01.332 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - 405 0 null 255.5916ms
+2024-09-01 15:33:40.281 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:33:40.725 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:33:40.863 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:33:41.070 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:33:41.660 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:33:41.661 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:33:41.858 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:33:42.432 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 584.8283ms
+2024-09-01 15:33:42.529 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:33:42.530 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:33:42.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:33:42.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 35.1502ms
+2024-09-01 15:33:42.598 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 70.2841ms
+2024-09-01 15:33:42.839 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 306.6306ms
+2024-09-01 15:33:42.963 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:33:43.366 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 403.0753ms
+2024-09-01 15:34:07.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:34:07.948 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:34:08.111 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:34:23.389 +01:00 [INF] Executed DbCommand (225ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:34:23.770 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:34:23.793 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 15663.274ms
+2024-09-01 15:34:23.800 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:34:23.850 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - 400 null text/plain; charset=utf-8 16173.7991ms
+2024-09-01 15:34:23.901 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/favicon.ico - null null
+2024-09-01 15:34:23.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/favicon.ico - 404 0 null 7.284ms
+2024-09-01 15:34:23.921 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/favicon.ico, Response status code: 404
+2024-09-01 15:35:00.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:35:00.863 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:35:00.869 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:37:01.790 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:37:02.319 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:37:02.327 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:37:02.484 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:37:02.515 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:37:02.517 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:37:03.416 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:37:04.062 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 654.6204ms
+2024-09-01 15:37:04.140 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:37:04.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:37:04.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:37:04.178 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 35.9208ms
+2024-09-01 15:37:04.198 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 58.374ms
+2024-09-01 15:37:04.323 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 180.2719ms
+2024-09-01 15:37:04.440 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:37:04.850 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 410.2537ms
+2024-09-01 15:37:17.162 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:37:17.513 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:37:17.610 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:37:36.220 +01:00 [INF] Executed DbCommand (151ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:37:36.548 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:37:36.571 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 18934.0363ms
+2024-09-01 15:37:36.578 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:37:36.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - 400 null text/plain; charset=utf-8 19457.4939ms
+2024-09-01 15:39:11.711 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:39:12.297 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:39:12.299 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:39:12.426 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:39:12.444 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:39:12.446 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:39:13.421 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:39:14.015 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 597.7041ms
+2024-09-01 15:39:14.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:39:14.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:39:14.067 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:39:14.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 46.1896ms
+2024-09-01 15:39:14.126 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 60.2041ms
+2024-09-01 15:39:14.198 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.6463ms
+2024-09-01 15:39:14.306 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:39:14.734 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 428.6044ms
+2024-09-01 15:39:21.081 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=b8464175-8d2c-47a8-8524-de1b25eacc82&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWFuVad93wZY+bfV8CUoOO65Nb8t6VDOPRSPEGsVTfYylO/FTykCv/H3Slr7n/i+zibguQpGEmMZ4LHFnsRSzt2AXrqibxgViC8KU1EAypQf6TOyLo9ppO0PTcCbFcpZHV2ZKJfcjYwdyofDX1/HAPKFAlIALR4mD6wRoJ6eeb8IOdoKcxZE86bYQnS4NIp0gCymr3W7TLDJJutB7fJz9GkG1lZapCgcWlziigOk1gHu2w== - null null
+2024-09-01 15:39:21.974 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:39:22.077 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:39:54.936 +01:00 [INF] Executed DbCommand (193ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:43:04.117 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:43:04.825 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:43:04.827 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:43:05.036 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:43:05.065 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:43:05.067 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:43:05.812 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:43:06.185 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 368.6166ms
+2024-09-01 15:43:06.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:43:06.282 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:43:06.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:43:06.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 87.9673ms
+2024-09-01 15:43:06.422 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 151.3049ms
+2024-09-01 15:43:06.513 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.6115ms
+2024-09-01 15:43:06.617 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:43:07.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 460.2331ms
+2024-09-01 15:43:43.141 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 15:43:43.183 +01:00 [INF] CORS policy execution successful.
+2024-09-01 15:43:43.447 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:43:43.521 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:43:49.440 +01:00 [INF] Executed DbCommand (193ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:43:50.160 +01:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-09-01 15:43:50.253 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:43:50.445 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-09-01 15:43:50.497 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:43:50.543 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:43:50.706 +01:00 [INF] Executed DbCommand (50ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-09-01 15:43:53.204 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO'.
+2024-09-01 15:43:53.246 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 9701.3134ms
+2024-09-01 15:43:53.252 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:43:53.284 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 200 null application/json; charset=utf-8 10143.3101ms
+2024-09-01 15:44:08.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - null null
+2024-09-01 15:44:08.423 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:44:08.447 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:44:11.889 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:44:49.539 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:44:49.541 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 41085.0152ms
+2024-09-01 15:44:49.546 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:44:49.549 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - 400 null text/plain; charset=utf-8 41182.2758ms
+2024-09-01 15:46:10.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - null null
+2024-09-01 15:46:10.131 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:46:10.137 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:46:23.251 +01:00 [INF] Executed DbCommand (31ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:46:33.645 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:46:33.654 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 23509.8822ms
+2024-09-01 15:46:33.662 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:46:33.664 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - 400 null text/plain; charset=utf-8 23564.3527ms
+2024-09-01 15:47:41.218 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:47:41.930 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:47:41.932 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:47:42.050 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:47:42.053 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:47:42.055 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:47:42.955 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:47:43.575 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 624.0236ms
+2024-09-01 15:47:43.665 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:47:43.668 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:47:43.668 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:47:43.683 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 15.0441ms
+2024-09-01 15:47:43.698 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 34.0141ms
+2024-09-01 15:47:43.867 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 199.5666ms
+2024-09-01 15:47:44.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:47:44.521 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 463.8818ms
+2024-09-01 15:47:55.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - null null
+2024-09-01 15:47:56.056 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:47:56.195 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:49:27.765 +01:00 [INF] Executed DbCommand (149ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:49:39.582 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:49:39.633 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 103400.5796ms
+2024-09-01 15:49:39.648 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:49:39.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=ea71afb4-fbf5-4396-b900-9c6cbe75b974&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWEZ+CnKO09L2RBEAc6L/RvoqDOJOmOzIx/+p/meZgDoCFkXt0PEg0peQr40Z9v1HWpMiXydtXbINDt6gjnsqj1IzRnPZDgzqJZDJEAOzMOszhQD5Bfz/uXhQJw96iSA2kefseqysJcVXyJgjDjPK3vYyyR+OHAw0dxdIkRnTELOHcX0qSMxN1+DqPrhVrAhn/45cQ1Bbjp0r0uc1irBzyjXjsXnWojrVkflwcTaFYhmsA== - 400 null text/plain; charset=utf-8 103844.4409ms
+2024-09-01 15:50:04.020 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:50:04.773 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:50:04.776 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:50:05.043 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:50:05.265 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:50:05.268 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:50:06.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:50:06.916 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 840.999ms
+2024-09-01 15:50:06.987 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:50:07.000 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:50:07.002 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:50:07.068 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 67.5942ms
+2024-09-01 15:50:07.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 95.9521ms
+2024-09-01 15:50:07.190 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.2438ms
+2024-09-01 15:50:07.320 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:50:07.787 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 467.3349ms
+2024-09-01 15:50:50.805 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/Auth/Register - application/json 104
+2024-09-01 15:50:50.923 +01:00 [INF] CORS policy execution successful.
+2024-09-01 15:50:51.139 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:50:51.246 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:50:56.240 +01:00 [INF] Executed DbCommand (129ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:50:56.853 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-09-01 15:50:56.938 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:50:57.141 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-09-01 15:50:57.173 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-09-01 15:50:57.225 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 15:50:57.390 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-09-01 15:51:46.319 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.RegisterRequestDTO'.
+2024-09-01 15:51:46.364 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI) in 55091.071ms
+2024-09-01 15:51:46.370 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Register (RamsTrackerAPI)'
+2024-09-01 15:51:46.394 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/Auth/Register - 200 null application/json; charset=utf-8 55623.5719ms
+2024-09-01 15:52:07.800 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 15:52:07.842 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:52:07.878 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:52:43.176 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:53:02.458 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:53:02.464 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 54578.4323ms
+2024-09-01 15:53:02.468 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:53:02.475 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 400 null text/plain; charset=utf-8 54677.3695ms
+2024-09-01 15:53:48.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 15:53:48.897 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:53:48.902 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:53:54.418 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:54:30.009 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:54:30.038 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 41128.8529ms
+2024-09-01 15:54:30.045 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:54:30.051 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 400 null text/plain; charset=utf-8 41195.3864ms
+2024-09-01 15:55:48.055 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 15:55:48.793 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 15:55:48.795 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 15:55:48.935 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:55:49.216 +01:00 [INF] Hosting environment: Development
+2024-09-01 15:55:49.240 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 15:55:50.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 15:55:51.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 998.5184ms
+2024-09-01 15:55:51.274 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:55:51.276 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 15:55:51.276 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 15:55:51.345 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 74.3074ms
+2024-09-01 15:55:51.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 78.9128ms
+2024-09-01 15:55:51.612 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 336.3738ms
+2024-09-01 15:55:51.907 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 15:55:53.915 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2008.0388ms
+2024-09-01 15:55:59.968 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 15:56:00.349 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:56:00.472 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 15:56:17.253 +01:00 [INF] Executed DbCommand (154ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 15:56:39.053 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-01 15:56:39.069 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 38580.188ms
+2024-09-01 15:56:39.077 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 15:56:39.111 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 400 null text/plain; charset=utf-8 39143.3862ms
+2024-09-01 16:04:40.910 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:04:41.992 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:04:42.037 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:04:42.226 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:04:43.195 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:04:43.198 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:04:43.264 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:04:44.171 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 916.6506ms
+2024-09-01 16:04:44.210 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:04:44.210 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:04:44.216 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:04:44.230 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 20.2292ms
+2024-09-01 16:04:44.270 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 60.9168ms
+2024-09-01 16:04:44.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.4017ms
+2024-09-01 16:04:44.491 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:04:45.049 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 558.7021ms
+2024-09-01 16:04:53.118 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:04:53.364 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:04:53.433 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:07:16.072 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:07:16.777 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:07:16.803 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:07:17.231 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:07:17.242 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:07:17.244 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:07:17.837 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:07:18.373 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 546.3074ms
+2024-09-01 16:07:18.455 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:07:18.455 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:07:18.456 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:07:18.487 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 32.0095ms
+2024-09-01 16:07:18.535 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 79.941ms
+2024-09-01 16:07:18.679 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 222.5376ms
+2024-09-01 16:07:18.811 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:07:19.180 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 368.5544ms
+2024-09-01 16:07:34.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:07:34.837 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:07:34.909 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:07:47.469 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:08:04.330 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 16:08:04.682 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@p14='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+OUTPUT 1
+WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+2024-09-01 16:08:09.742 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-01 16:08:09.771 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 34843.486ms
+2024-09-01 16:08:09.809 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:08:09.834 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null application/json; charset=utf-8 35264.8146ms
+2024-09-01 16:09:18.088 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:09:18.122 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:09:18.126 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:09:37.490 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:09:40.763 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-01 16:09:40.830 +01:00 [INF] Executed DbCommand (40ms) [Parameters=[@p14='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+OUTPUT 1
+WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+2024-09-01 16:09:45.284 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:09:45.290 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 27157.3551ms
+2024-09-01 16:09:45.293 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:09:45.296 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/plain; charset=utf-8 27208.3652ms
+2024-09-01 16:16:10.350 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:16:12.709 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:16:12.725 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:16:14.308 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:16:14.312 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:16:14.322 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:16:14.774 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:16:17.163 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 2405.2422ms
+2024-09-01 16:16:17.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:16:17.601 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 16.1448ms
+2024-09-01 16:16:17.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:16:17.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:16:17.838 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 48.5443ms
+2024-09-01 16:16:17.944 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.3707ms
+2024-09-01 16:16:18.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:16:19.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 498.0335ms
+2024-09-01 16:16:23.358 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:16:23.654 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:16:23.764 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:16:30.424 +01:00 [INF] Executed DbCommand (283ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:16:30.920 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-01 16:16:30.990 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 7202.6542ms
+2024-09-01 16:16:31.010 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:16:31.041 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 401 null application/json; charset=utf-8 7684.0537ms
+2024-09-01 16:18:36.337 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:18:37.017 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:18:37.019 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:18:37.120 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:18:37.126 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:18:37.127 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:18:39.004 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:18:39.929 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 971.6672ms
+2024-09-01 16:18:39.978 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:18:39.978 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:18:39.978 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:18:39.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 16.8562ms
+2024-09-01 16:18:40.018 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 40.356ms
+2024-09-01 16:18:40.207 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 228.1324ms
+2024-09-01 16:18:40.311 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:18:40.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 431.0604ms
+2024-09-01 16:18:45.063 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:18:45.352 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:18:45.463 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:18:51.163 +01:00 [INF] Executed DbCommand (189ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:18:51.542 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:18:51.712 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 6227.4895ms
+2024-09-01 16:18:51.719 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:18:51.759 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/plain; charset=utf-8 6696.8363ms
+2024-09-01 16:22:22.290 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:22:22.589 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:22:22.594 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:22:22.732 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:22:22.738 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:22:22.739 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:22:33.258 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:22:33.881 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:22:33.883 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:22:34.139 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:22:34.338 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:22:35.039 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:22:35.108 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:22:35.512 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 411.4179ms
+2024-09-01 16:22:35.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:22:35.547 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:22:35.558 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:22:35.567 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 19.5821ms
+2024-09-01 16:22:35.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 52.8245ms
+2024-09-01 16:22:36.071 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 522.5723ms
+2024-09-01 16:22:36.196 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:22:36.619 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 423.4846ms
+2024-09-01 16:22:42.152 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:22:42.432 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:22:42.517 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:22:48.383 +01:00 [INF] Executed DbCommand (180ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:22:48.805 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:22:48.831 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 6289.6652ms
+2024-09-01 16:22:48.908 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:22:48.969 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/plain; charset=utf-8 6816.7808ms
+2024-09-01 16:24:20.316 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:24:20.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 39.9453ms
+2024-09-01 16:24:20.400 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:24:20.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:24:20.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:24:20.408 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 7.2393ms
+2024-09-01 16:24:20.419 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 18.1809ms
+2024-09-01 16:24:20.441 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4101ms
+2024-09-01 16:24:20.800 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:24:20.826 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/favicon-32x32.png - null null
+2024-09-01 16:24:20.849 +01:00 [INF] The file /favicon-32x32.png was not modified
+2024-09-01 16:24:20.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.2061ms
+2024-09-01 16:24:20.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/favicon-32x32.png - 304 null image/png 27.6482ms
+2024-09-01 16:24:34.788 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:24:35.556 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:24:35.559 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:24:35.752 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:24:35.977 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:24:36.038 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:24:36.874 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:24:37.802 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 930.5592ms
+2024-09-01 16:24:38.000 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:24:38.003 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:24:38.003 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:24:38.119 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 118.2099ms
+2024-09-01 16:24:38.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 214.2288ms
+2024-09-01 16:24:38.373 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 370.8644ms
+2024-09-01 16:24:38.592 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:24:39.194 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 603.0045ms
+2024-09-01 16:24:42.741 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:24:42.990 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:24:43.107 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:24:48.637 +01:00 [INF] Executed DbCommand (227ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:24:49.054 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2024-09-01 16:24:49.079 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 5948.0109ms
+2024-09-01 16:24:49.086 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:24:49.125 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 112 text/plain; charset=utf-8 6382.3986ms
+2024-09-01 16:26:56.975 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:26:57.511 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:26:57.513 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:26:57.948 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:26:58.401 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:26:58.408 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:26:58.522 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:26:59.849 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 1336.4354ms
+2024-09-01 16:26:59.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:26:59.905 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:26:59.906 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:26:59.963 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 66.4361ms
+2024-09-01 16:26:59.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 62.651ms
+2024-09-01 16:27:00.745 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 839.3987ms
+2024-09-01 16:27:01.847 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:27:02.188 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 341.2045ms
+2024-09-01 16:27:03.892 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:27:04.224 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:27:04.346 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:27:10.725 +01:00 [INF] Executed DbCommand (192ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:27:11.156 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/html; charset=UTF-8
+2024-09-01 16:27:11.178 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 6812.6404ms
+2024-09-01 16:27:11.198 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:27:11.222 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-09-01 16:27:11.230 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-09-01 16:27:11.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/html; charset=UTF-8 7371.6469ms
+2024-09-01 16:29:44.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:29:44.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 21.897ms
+2024-09-01 16:29:44.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:29:44.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:29:44.618 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:29:44.717 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 94.169ms
+2024-09-01 16:29:44.737 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 119.7823ms
+2024-09-01 16:29:44.890 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 268.0044ms
+2024-09-01 16:29:44.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:29:45.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 202.2267ms
+2024-09-01 16:29:48.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:29:48.319 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:29:48.333 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:29:48.536 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:29:48.549 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/html; charset=UTF-8
+2024-09-01 16:29:48.553 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 212.4347ms
+2024-09-01 16:29:48.564 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:29:48.578 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-09-01 16:29:48.581 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-09-01 16:29:48.599 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/html; charset=UTF-8 298.6098ms
+2024-09-01 16:29:50.879 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/'http://localhost:4200/authlog - null null
+2024-09-01 16:29:50.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/'http://localhost:4200/authlog - 404 0 null 115.9379ms
+2024-09-01 16:29:51.013 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7061/api/Auth/'http://localhost:4200/authlog, Response status code: 404
+2024-09-01 16:30:45.202 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:30:45.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 8.0805ms
+2024-09-01 16:30:45.266 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:30:45.266 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:30:45.267 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:30:45.283 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 17.1043ms
+2024-09-01 16:30:45.301 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 35.3951ms
+2024-09-01 16:30:45.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.8257ms
+2024-09-01 16:30:45.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:30:45.926 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.7536ms
+2024-09-01 16:30:50.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:30:50.280 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:30:50.303 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:30:50.376 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:30:50.387 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/html; charset=UTF-8
+2024-09-01 16:30:50.390 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 79.5742ms
+2024-09-01 16:30:50.398 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:30:50.408 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-09-01 16:30:50.412 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-09-01 16:30:50.421 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/html; charset=UTF-8 278.6225ms
+2024-09-01 16:43:33.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:43:33.949 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 39.2887ms
+2024-09-01 16:43:33.988 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:43:33.993 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 5.7817ms
+2024-09-01 16:43:34.012 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:43:34.015 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:43:34.035 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 20.0729ms
+2024-09-01 16:43:34.062 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2587ms
+2024-09-01 16:43:35.027 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:43:35.065 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.1674ms
+2024-09-01 16:43:43.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:43:43.956 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:43:43.993 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:43:44.005 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'RamsTrackerAPI.Controllers.AuthControllers.AuthController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 16:43:44.578 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 500 null text/html; charset=utf-8 655.0629ms
+2024-09-01 16:43:44.701 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:43:44.701 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:43:44.728 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 27.1416ms
+2024-09-01 16:43:44.802 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.7073ms
+2024-09-01 16:45:05.926 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 16:45:06.823 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 16:45:06.835 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 16:45:07.089 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:45:07.994 +01:00 [INF] Hosting environment: Development
+2024-09-01 16:45:07.998 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 16:45:08.671 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 16:45:08.671 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:45:10.845 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:45:11.177 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 2517.6179ms
+2024-09-01 16:45:11.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:45:11.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 16:45:11.672 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:45:11.685 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 16:45:11.713 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 208.7492ms
+2024-09-01 16:45:11.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 191.2884ms
+2024-09-01 16:45:13.280 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1594.696ms
+2024-09-01 16:45:15.506 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 16:45:16.091 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 584.8693ms
+2024-09-01 16:45:21.062 +01:00 [INF] Executed DbCommand (168ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:45:21.491 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/html; charset=UTF-8
+2024-09-01 16:45:21.554 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 9482.2979ms
+2024-09-01 16:45:21.663 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:45:21.680 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-09-01 16:45:21.695 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-09-01 16:45:21.759 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/html; charset=UTF-8 13102.2906ms
+2024-09-01 16:45:24.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - null null
+2024-09-01 16:45:24.812 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:45:24.817 +01:00 [INF] Route matched with {action = "EmailVerification", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerification(System.String, System.String) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-01 16:45:25.016 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-01 16:45:25.032 +01:00 [INF] Executing ContentResult with HTTP Response ContentType of text/html; charset=UTF-8
+2024-09-01 16:45:25.036 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI) in 211.2012ms
+2024-09-01 16:45:25.049 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.EmailVerification (RamsTrackerAPI)'
+2024-09-01 16:45:25.060 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-09-01 16:45:25.067 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-09-01 16:45:25.092 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/Auth/Emailconfirmation?UserId=6de9e804-ccd2-47a9-825e-b1cdfb58d6c9&&Token=CfDJ8NaEnMEPt4tKh5d6Mfa1SWG1IdrE/zzaPwihhimM08ons3NMRorYqbH0nGQOMI8K21Aku8pMkjnFnQN4KJWzGeVO9Vzby0yFbGiZa3OtetplN3Tq4wQIFyTBj7g0f3fibmsHvx1dbaRetLQtDTBbJCggV0gioL/t0buE8qRHbe6OU61zpBzrKM208pfa6thKyMjN7Bo+AMMgesPATAcRx5o9DPUNKudYtgQLRHcFQY56XZ/kFj/u/f4jyZZ6klEwzg== - 200 null text/html; charset=UTF-8 395.9409ms
+2024-09-01 18:27:52.821 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 18:27:55.260 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-01 18:27:55.263 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-01 18:27:55.434 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 18:27:55.479 +01:00 [INF] Hosting environment: Development
+2024-09-01 18:27:55.497 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-01 18:27:56.666 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-01 18:27:57.523 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 874.5486ms
+2024-09-01 18:27:57.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 18:27:57.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-01 18:27:57.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-01 18:27:57.590 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 27.6055ms
+2024-09-01 18:27:57.606 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 43.972ms
+2024-09-01 18:27:57.715 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 151.2456ms
+2024-09-01 18:27:57.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-01 18:27:58.315 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 465.404ms
+2024-09-01 18:28:59.313 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-09-01 18:28:59.477 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:28:59.895 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-01 18:28:59.990 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-01 18:29:05.074 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-09-01 18:29:05.118 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:05.123 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:05.138 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-01 18:29:06.987 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/contractor - null null
+2024-09-01 18:29:07.006 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:07.013 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:07.024 +01:00 [INF] Route matched with {action = "GetAll", controller = "Contractor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.ContractorController (RamsTrackerAPI).
+2024-09-01 18:29:08.064 +01:00 [INF] Executed DbCommand (334ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-09-01 18:29:08.064 +01:00 [INF] Executed DbCommand (334ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+2024-09-01 18:29:08.064 +01:00 [INF] Executed DbCommand (334ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Activity], [c].[HsPersId], [c].[HsPersonContactId], [c].[Name]
+FROM [Contractor] AS [c]
+2024-09-01 18:29:08.392 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.ContractorDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:08.392 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:08.429 +01:00 [INF] Executed DbCommand (148ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MsTitle] = N'Pouring concrete'
+2024-09-01 18:29:08.443 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 3279.7145ms
+2024-09-01 18:29:08.443 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI) in 1387.2946ms
+2024-09-01 18:29:08.459 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-09-01 18:29:08.462 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:08.464 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:08.476 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 8475.8593ms
+2024-09-01 18:29:08.481 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-01 18:29:08.495 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 9182.6192ms
+2024-09-01 18:29:08.495 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 200 null application/json; charset=utf-8 3424.9699ms
+2024-09-01 18:29:08.495 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/contractor - 200 null application/json; charset=utf-8 1508.4442ms
+2024-09-01 18:29:10.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/contractor - null null
+2024-09-01 18:29:10.716 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:10.718 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:10.720 +01:00 [INF] Route matched with {action = "GetAll", controller = "Contractor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.ContractorController (RamsTrackerAPI).
+2024-09-01 18:29:10.737 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Activity], [c].[HsPersId], [c].[HsPersonContactId], [c].[Name]
+FROM [Contractor] AS [c]
+2024-09-01 18:29:10.744 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.ContractorDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:10.748 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI) in 20.5788ms
+2024-09-01 18:29:10.752 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:10.759 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/contractor - 200 null application/json; charset=utf-8 48.3336ms
+2024-09-01 18:29:12.953 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS - null null
+2024-09-01 18:29:12.997 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:13.006 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:13.015 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-01 18:29:13.112 +01:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+2024-09-01 18:29:13.121 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:13.127 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 91.5978ms
+2024-09-01 18:29:13.132 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:13.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS - 200 null application/json; charset=utf-8 182.1729ms
+2024-09-01 18:29:16.415 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/contractor - null null
+2024-09-01 18:29:16.422 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:16.424 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:16.428 +01:00 [INF] Route matched with {action = "GetAll", controller = "Contractor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.ContractorController (RamsTrackerAPI).
+2024-09-01 18:29:16.453 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Activity], [c].[HsPersId], [c].[HsPersonContactId], [c].[Name]
+FROM [Contractor] AS [c]
+2024-09-01 18:29:16.471 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.ContractorDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:16.484 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI) in 49.8227ms
+2024-09-01 18:29:16.497 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:16.519 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/contractor - 200 null application/json; charset=utf-8 106.5959ms
+2024-09-01 18:29:17.323 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/contractor - null null
+2024-09-01 18:29:17.364 +01:00 [INF] CORS policy execution successful.
+2024-09-01 18:29:17.374 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:17.389 +01:00 [INF] Route matched with {action = "GetAll", controller = "Contractor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller RamsTrackerAPI.Controllers.ContractorController (RamsTrackerAPI).
+2024-09-01 18:29:17.457 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Activity], [c].[HsPersId], [c].[HsPersonContactId], [c].[Name]
+FROM [Contractor] AS [c]
+2024-09-01 18:29:17.467 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.ContractorDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 18:29:17.473 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI) in 27.3664ms
+2024-09-01 18:29:17.483 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.ContractorController.GetAll (RamsTrackerAPI)'
+2024-09-01 18:29:17.487 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/contractor - 200 null application/json; charset=utf-8 164.1449ms
+2024-09-01 19:30:27.714 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-01 19:30:27.852 +01:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-01 19:30:27.855 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-01 19:30:27.862 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-01 19:30:27.906 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-01 19:30:27.932 +01:00 [INF] Applying migration '20240901182853_Userprofilechanged'.
+2024-09-01 19:30:28.102 +01:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD [Role] nvarchar(max) NOT NULL DEFAULT N'';
+2024-09-01 19:30:28.108 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240901182853_Userprofilechanged', N'8.0.8');

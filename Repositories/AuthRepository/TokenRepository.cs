@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
+using RamsTrackerAPI.Data.Account;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -14,7 +15,7 @@ namespace RamsTrackerAPI.Repositories.AuthRepository
         {
             this._configuration = configuration;
         }
-        public string CreateJwtToken(IdentityUser user, List<string> roles)
+        public string CreateJwtToken(User user, List<string> roles)
         {
            
             // Create claims

@@ -1,0 +1,158 @@
+2024-09-11 21:06:50.037 +01:00 [INF] User profile is available. Using 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-11 21:06:51.570 +01:00 [INF] Creating key {164ecbf7-05df-4f6d-85e2-d1c3f7c40686} with creation date 2024-09-11 20:06:51Z, activation date 2024-09-14 11:20:45Z, and expiration date 2024-12-10 20:06:50Z.
+2024-09-11 21:06:51.830 +01:00 [INF] Writing data to file 'C:\Users\bogda\AppData\Local\ASP.NET\DataProtection-Keys\key-164ecbf7-05df-4f6d-85e2-d1c3f7c40686.xml'.
+2024-09-11 21:06:55.254 +01:00 [INF] Now listening on: https://localhost:7061
+2024-09-11 21:06:55.495 +01:00 [INF] Now listening on: http://localhost:5090
+2024-09-11 21:06:56.293 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 21:06:56.362 +01:00 [INF] Hosting environment: Development
+2024-09-11 21:06:56.562 +01:00 [INF] Content root path: C:\Users\bogda\Dropbox\Asp API\RamsTracker\RamsTrackerAPI
+2024-09-11 21:07:03.206 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - null null
+2024-09-11 21:07:05.497 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - 200 null text/html;charset=utf-8 2308.4346ms
+2024-09-11 21:07:13.526 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui.css - null null
+2024-09-11 21:07:13.526 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.css - null null
+2024-09-11 21:07:13.526 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 21:07:13.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui-bundle.js - null null
+2024-09-11 21:07:13.555 +01:00 [INF] The file /index.css was not modified
+2024-09-11 21:07:13.550 +01:00 [INF] The file /swagger-ui.css was not modified
+2024-09-11 21:07:13.576 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.css - 304 null text/css 49.5311ms
+2024-09-11 21:07:13.571 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-09-11 21:07:13.626 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui-bundle.js - 304 null text/javascript 98.8145ms
+2024-09-11 21:07:13.586 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui.css - 304 null text/css 60.9607ms
+2024-09-11 21:07:13.597 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.js - null null
+2024-09-11 21:07:13.580 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-11 21:07:13.636 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - null null
+2024-09-11 21:07:13.655 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.js - 200 null application/javascript;charset=utf-8 58.8005ms
+2024-09-11 21:07:13.658 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-09-11 21:07:13.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 133.451ms
+2024-09-11 21:07:14.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 599.8849ms
+2024-09-11 21:07:14.214 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - 200 null text/javascript; charset=UTF-8 577.5919ms
+2024-09-11 21:07:14.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - null null
+2024-09-11 21:07:15.274 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 729.865ms
+2024-09-11 21:27:17.173 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-09-11 21:27:17.303 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:17.676 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-11 21:27:17.795 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:27:24.094 +01:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-09-11 21:27:24.291 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MsTitle] = N'Pouring concrete'
+2024-09-11 21:27:24.319 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-09-11 21:27:24.386 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 6572.3155ms
+2024-09-11 21:27:24.392 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-11 21:27:24.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 7323.8368ms
+2024-09-11 21:27:43.288 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7061/api/auth/login - null null
+2024-09-11 21:27:43.333 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:43.339 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7061/api/auth/login - 204 null null 50.4219ms
+2024-09-11 21:27:43.346 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7061/api/auth/login - application/json 64
+2024-09-11 21:27:43.360 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:43.364 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-11 21:27:43.399 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(RamsTrackerAPI.Models.DTO.AuthDTO.LoginRequestDTO) on controller RamsTrackerAPI.Controllers.AuthControllers.AuthController (RamsTrackerAPI).
+2024-09-11 21:27:44.209 +01:00 [INF] Executed DbCommand (94ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Contractor], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[Role], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-09-11 21:27:44.993 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-11 21:27:45.100 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.DTO.AuthDTO.LoginResponseDTO'.
+2024-09-11 21:27:45.113 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI) in 1707.2569ms
+2024-09-11 21:27:45.119 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.AuthControllers.AuthController.Login (RamsTrackerAPI)'
+2024-09-11 21:27:45.123 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7061/api/auth/login - 200 null application/json; charset=utf-8 1777.5497ms
+2024-09-11 21:27:45.148 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/countrams - null null
+2024-09-11 21:27:45.172 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:45.180 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-11 21:27:45.182 +01:00 [INF] Route matched with {action = "countRams", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] countRams() on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:27:45.461 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+2024-09-11 21:27:45.511 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [MS] AS [m]
+WHERE [m].[MsTitle] = N'Pouring concrete'
+2024-09-11 21:27:45.524 +01:00 [INF] Executing OkObjectResult, writing value of type 'RamsTrackerAPI.Models.Domain.RamsCount'.
+2024-09-11 21:27:45.527 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI) in 339.9243ms
+2024-09-11 21:27:45.537 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.countRams (RamsTrackerAPI)'
+2024-09-11 21:27:45.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/countrams - 200 null application/json; charset=utf-8 391.4169ms
+2024-09-11 21:27:47.530 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - null null
+2024-09-11 21:27:47.555 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:47.558 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:27:47.578 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Guid, System.String) on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:27:47.664 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+WHERE [m].[ContractorId] = @__id_0
+2024-09-11 21:27:47.830 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 21:27:47.857 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 274.5957ms
+2024-09-11 21:27:47.866 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:27:47.876 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - 200 null application/json; charset=utf-8 345.522ms
+2024-09-11 21:27:52.783 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/4032db39-4fdc-47c6-0279-08dccf4ab6b3 - null null
+2024-09-11 21:27:52.783 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - null null
+2024-09-11 21:27:52.799 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:52.805 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:27:52.808 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:27:52.810 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Guid, System.String) on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:27:52.820 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+WHERE [m].[ContractorId] = @__id_0
+2024-09-11 21:27:52.828 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader)
+2024-09-11 21:27:52.844 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 21:27:52.848 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 34.2838ms
+2024-09-11 21:27:52.850 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:27:52.852 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-11 21:27:52.852 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - 200 null application/json; charset=utf-8 69.1513ms
+2024-09-11 21:27:52.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/4032db39-4fdc-47c6-0279-08dccf4ab6b3 - 401 0 null 73.0829ms
+2024-09-11 21:28:17.940 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/4032db39-4fdc-47c6-0279-08dccf4ab6b3 - null null
+2024-09-11 21:28:17.954 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:28:17.960 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader)
+2024-09-11 21:28:17.963 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - null null
+2024-09-11 21:28:17.982 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-11 21:28:18.014 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:28:18.017 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/4032db39-4fdc-47c6-0279-08dccf4ab6b3 - 401 0 null 77.155ms
+2024-09-11 21:28:18.019 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:18.033 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Guid, System.String) on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:28:18.078 +01:00 [INF] Executed DbCommand (38ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+WHERE [m].[ContractorId] = @__id_0
+2024-09-11 21:28:18.089 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 21:28:18.100 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 62.9481ms
+2024-09-11 21:28:18.106 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:18.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - 200 null application/json; charset=utf-8 149.7163ms
+2024-09-11 21:28:20.900 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - null null
+2024-09-11 21:28:20.907 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:28:20.910 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:20.913 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Guid, System.String) on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:28:20.930 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+WHERE [m].[ContractorId] = @__id_0
+2024-09-11 21:28:20.937 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 21:28:20.940 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 20.6195ms
+2024-09-11 21:28:20.945 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:20.949 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - 200 null application/json; charset=utf-8 49.0903ms
+2024-09-11 21:28:23.382 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/e9b7092e-c971-4e0d-027a-08dccf4ab6b3 - null null
+2024-09-11 21:28:23.388 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - null null
+2024-09-11 21:28:23.412 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:28:23.418 +01:00 [INF] CORS policy execution successful.
+2024-09-11 21:28:23.423 +01:00 [INF] Executing endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:23.424 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader)
+2024-09-11 21:28:23.427 +01:00 [INF] Route matched with {action = "GetAll", controller = "MS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Guid, System.String) on controller RamsTrackerAPI.Controllers.MSController (RamsTrackerAPI).
+2024-09-11 21:28:23.431 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-11 21:28:23.443 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/e9b7092e-c971-4e0d-027a-08dccf4ab6b3 - 401 0 null 61.235ms
+2024-09-11 21:28:23.459 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ApprovedSheetPath], [m].[ContractorId], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FileSizeInBytes], [m].[MsTitle], [m].[ProjectId], [m].[RaId], [m].[RevDate], [m].[Status], [m].[revision]
+FROM [MS] AS [m]
+WHERE [m].[ContractorId] = @__id_0
+2024-09-11 21:28:23.468 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RamsTrackerAPI.Models.DTO.MSDTO, RamsTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 21:28:23.471 +01:00 [INF] Executed action RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI) in 32.9473ms
+2024-09-11 21:28:23.474 +01:00 [INF] Executed endpoint 'RamsTrackerAPI.Controllers.MSController.GetAll (RamsTrackerAPI)'
+2024-09-11 21:28:23.478 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7061/api/MS/custom?id=9cec012d-7c51-42f2-985d-08dcc9cd26fe&role=Subcontractor - 200 null application/json; charset=utf-8 89.8488ms

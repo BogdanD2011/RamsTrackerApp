@@ -14,6 +14,8 @@ using System.Text.Json;
 using System.IO;
 using System;
 using static System.Net.WebRequestMethods;
+using Microsoft.AspNetCore.Identity;
+using RamsTrackerAPI.Data.Account;
 
 namespace RamsTrackerAPI.Controllers
 {
@@ -27,24 +29,32 @@ namespace RamsTrackerAPI.Controllers
         private readonly IMapper mapper;
         private readonly ILogger<MSController> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly UserManager<User> _usermanager;
+        private readonly IContractorRepository _contractorRepository;
 
         public MSController(RamsDbContext dbcontext, IMSRepository MSRepository, IMapper mapper,
-            ILogger<MSController> logger, IHttpContextAccessor httpContextAccessor)
+            ILogger<MSController> logger, IHttpContextAccessor httpContextAccessor, UserManager<User> usermanager,
+            IContractorRepository contractorRepository)
         {
             this.dbContext = dbcontext;
             this._MSRepository = MSRepository;
             this.mapper = mapper;
             this._logger = logger;
             this._httpContextAccessor = httpContextAccessor;
+            this._usermanager = usermanager;
+            this._contractorRepository = contractorRepository;
         }
         // Get all MS
         [HttpGet]
+        [Route("custom")]
         //[Authorize(Roles = "Writer, Reader")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll ([FromQuery] Guid id, [FromQuery] string role)
         {
-
+            Guid id_check = Guid.Empty;
+            if (role == "Subcontractor")
+                id_check = id;
             // Get Data From Databas - Domain models
-            var MSs = await _MSRepository.GetAllAsync();
+            var MSs = await _MSRepository.GetAllAsync(id_check);
 
             // Map Domain Models to DTOs
             //var MSsDto = new List<MSDTO>();
@@ -62,10 +72,9 @@ namespace RamsTrackerAPI.Controllers
 
             //    });
             //}
-
-
+            var ContractorName = await _contractorRepository.GetByIdAsync(id_check);
             //Map domain models to DTOs
-            var MSsDto = mapper.Map<List<MSDTO>>(MSs);
+            var MSsDto = mapper.Map<List<MSDTO>>(MSs, opt => opt.Items["Subcontractor"] = ContractorName.Name); 
 
             // Return DTOs
             return Ok(MSsDto);
@@ -83,7 +92,7 @@ namespace RamsTrackerAPI.Controllers
         //Get single MS by id
         // GET: https//localhost:portnumber/api/MS/{id}
         [HttpGet]
-        [Authorize(Roles ="Reader")]
+        //[Authorize(Roles ="")]
         [Route("{id:Guid}")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
@@ -96,13 +105,17 @@ namespace RamsTrackerAPI.Controllers
                 return NotFound();
             }
 
+            var ContractorId = MSDomain.ContractorId;
+            var ContractorName = await _contractorRepository.GetByIdAsync(ContractorId);
+           
             // Convert and return model domain to DTO
 
-            return Ok(mapper.Map<MSDTO>(MSDomain));
+            return Ok(mapper.Map<MSDTO>(MSDomain, opt => opt.Items["Subcontractor"] = ContractorName.Name));
         }
 
         // POST: https//localhost:portnumber/api/MS
         [HttpPost]
+        [Consumes("multipart/form-data")]
         //[Authorize(Roles = "Writer")]
         //[ValidateModelAtribute]
         public async Task<IActionResult> Create([FromForm] AddMSRequestDto addMSRequestDto)

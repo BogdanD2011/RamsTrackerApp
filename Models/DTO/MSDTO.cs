@@ -6,8 +6,18 @@ namespace RamsTrackerAPI.Models.DTO
     public class MSDTO
     {
         public Guid Id { get; set; }
-        public string MS_Title { get; set; }
+        public Guid? RaId { get; set; }
+        public string? MsTitle { get; set; }
         public int revision { get; set; }
-      
+
+        public DateTime RevDate { get; set; }
+
+        public string? Subcontractor { get; set; }
+
+        public string? Status { get; set; }
+        public string? FilePath { get; set; }
+        public string? ApprovedSheetPath { get; set; }
+
+
     }
 }
